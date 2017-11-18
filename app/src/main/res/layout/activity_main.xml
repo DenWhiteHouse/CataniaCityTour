@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.cataniacitytour.MainActivity">
+
+    <!-- Monuments category -->
+        <TextView
+            android:id="@+id/monuments"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_monuments" />
+
+    <!-- Restaurants category -->
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_restaurants" />
+
+    <!-- NightLife category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nightLife"
+            style="@style/CategoryStyle"
+            android:text="@string/category_nightlife" />
+
+    <!-- TypicalFood category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/typicalFood"
+            style="@style/CategoryStyle"
+            android:text="@string/category_typicalfood" />
+</LinearLayout>
